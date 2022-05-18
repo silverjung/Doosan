@@ -1,0 +1,443 @@
+html {
+    font-size: 62.5%;
+}
+
+body {}
+
+h1 {
+    float: left;
+}
+
+h3 {
+    position: absolute;
+    top: 15%;
+    left: 13%;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #535353;
+}
+
+h3:after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 110px;
+    height: 4px;
+    background: #BF1919;
+}
+
+header {
+    font-family: 'SpoqaHanSans', sans-serif;
+}
+
+button {
+    border: 0;
+    cursor: pointer;
+}
+
+.sec_header {
+    position: fixed;
+    left: 17%;
+    width: 126rem;
+    padding: 3rem 0;
+    z-index: 9999;
+}
+
+.logo {
+    width: 12rem;
+}
+
+nav {
+    float: right;
+}
+
+.nav_box {
+    width: 70rem;
+    display: flex;
+    justify-content: space-between;
+}
+.depth_1{
+    width: 6rem;
+}
+.depth_1 > a {
+    display: block;
+    font-size: 1.7rem;
+    font-weight: bold;
+    line-height: 4.8rem;
+    color: #606060;
+}
+
+.depth_2_box {
+    display: none;
+    width: 15rem;
+    background: rgba(255,255,255,0.8);
+}
+.depth_2{
+    padding: 0 2rem;
+}
+.depth_2 > a {
+    display: block;
+    font-size: 1.5rem;
+    line-height: 4rem;
+    color: #2a2a2a;
+}
+
+.depth_2 > a:hover {
+    font-weight: bold;
+}
+/*             banner_section          */
+.section_1 {
+    width: 190rem;
+    height: 95rem;
+    background: url(images/banner.jpg) no-repeat 0 0;
+}
+
+.wrap_container {
+    position: relative;
+}
+
+.wrap_contents {
+    width: 126rem;
+    margin: 0 auto;
+}
+
+.logo_img {
+    width: 7.5rem;
+}
+
+.match_box {
+    padding-top: 9rem;
+}
+
+.match_list {
+    padding: 9rem 0;
+}
+
+.match_list > table {
+    margin: 0 auto;
+}
+
+.match_img {
+    vertical-align: middle;
+}
+
+.match_date {
+    display: block;
+    width: 14rem;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    background: #707070;
+    border-radius: 20px;
+    color: #E5E5E5;
+}
+
+.score {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.home {
+    text-align: center;
+    font-size: 1.3rem;
+    color: #A7A7A7;
+}
+
+.win_team {
+    display: block;
+    width: 80%;
+    margin: 5px auto;
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 2.4rem;
+    background: #ECECEC;
+    color: #A7A7A7;
+}
+
+.away {
+    text-align: center;
+    font-size: 1.3rem;
+    color: #A7A7A7;
+}
+
+.stadium_time {
+    display: block;
+    font-size: 1.3rem;
+    padding: 1rem 0;
+}
+
+.match_box .slick-arrow {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 5rem;
+    height: 4rem;
+    z-index: 50;
+    color: transparent;
+}
+
+.match_box .slick-prev {
+    background: url(images/prev_btn.png) no-repeat 0 0;
+}
+
+.match_box .slick-next {
+    right: -8rem;
+    background: url(images/next_btn.png) no-repeat 0 0;
+}
+
+.bears_video {
+    padding-top: 9rem;
+    background: #3a7bd5;
+    background: -webkit-linear-gradient(to right, #3a7bd5, #3a6073);
+    background: linear-gradient(to right, #3a7bd5, #3a6073);
+
+}
+.bears_video h3{
+    top: 10%;
+    color: #fff;
+}
+.video_contents {
+    padding: 8rem 0;
+}
+.video_box{
+    position: relative;
+}
+.video_list > a > img {
+    width: 40rem;
+}
+
+.video_txt {
+    padding: 2rem;
+}
+
+.video_txt > p {
+    height: 4.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2.2rem;
+    color: #fff;
+}
+
+.play_time {
+    position: relative;
+    margin-top: 1rem;
+    padding-left: 5rem;
+    display: block;
+    font-size: 1.7rem;
+    color: #fff;
+    font-weight: 200;
+}
+.play_time:before{
+    content: '';
+    position: absolute;
+    top: -10px; left: -5px;
+    width: 4rem; height: 4rem;
+    background: url(images/youtube_btn.png) no-repeat 0 0;
+}
+.video_box .slick-arrow {
+    position: absolute;
+    top: -90px;
+    right: 312px;
+    width: 5rem;
+    height: 4rem;
+    z-index: 50;
+    color: transparent;
+}
+.video_box .slick-prev {
+    right: 395px;
+    background: url(images/prev_white.png) no-repeat 0 0;
+}
+.video_box .slick-next {
+    background: url(images/next_white.png) no-repeat 0 0;
+}
+.news_box{
+    display: flex;
+    justify-content: space-between;
+    padding: 9rem 0;
+}
+.news_list{
+    position: relative;
+    width: 31.5rem;
+    padding-top: 10rem;
+}
+.news_list img{
+    height: 100%;
+}
+.news_color{
+    height: 100%;
+    background: #D14B4B;
+}
+.news_color>.news_title{
+    padding: 15rem 0;
+}
+.news_title{
+    display: block;
+    width: 27rem;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+}
+.img_title{
+    position: absolute;
+    bottom: 20%;
+    left: calc(50% - 135px);
+}
+.player_stats h3{
+    top: -7%;
+}
+.player_box{
+    display: flex;
+    justify-content: space-between;
+    padding: 7rem 0;
+}
+.player_title{
+    font-size: 1.5rem;
+    color: #ABABAB;
+    height: 40px;
+}
+.best_player{
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: #303030;
+    height: 33px;
+}
+.spon_list{
+    float: left;
+}
+.best_score{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #d66262;
+    height: 55px;
+}
+.other_player{
+    font-size: 1.7rem;
+    height: 40px;
+}
+.empty{
+    width: 100px;
+}
+.ad_box{
+    display: flex;
+    justify-content: space-between;
+    padding: 8rem 0;
+}
+.ad_list{
+    position: relative;
+}
+.ad_list h3{
+    top: -30%;
+    left: -11%;
+}
+.ad_list:nth-of-type(2) h3{
+    left: -3%;
+}
+.ad_list img{
+    border-radius: 20px;
+    width: 94%;
+}
+.online_link{
+    position: absolute;
+    top: 45px; right: 85px;
+    display: block;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.ticket_txt{
+    position: absolute;
+    left: 155px; bottom: 25px;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #fff;
+}
+.spon_box{
+    padding: 15rem 0;
+}
+.spon_box .slick-arrow {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 5rem;
+    height: 4rem;
+    z-index: 50;
+    color: transparent;
+}
+
+.spon_box .slick-prev {
+    background: url(images/prev_btn.png) no-repeat 0 0;
+}
+
+.spon_box .slick-next {
+    right: -8rem;
+    background: url(images/next_btn.png) no-repeat 0 0;
+}
+footer{
+    background: #7E7E7E;
+}
+.imgs{
+    display: flex;
+}
+.wrap{
+    overflow: hidden;
+    width: 105rem;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+.f_logo>img{
+    width: 18rem;
+}
+.sns_box{
+    overflow: hidden;
+    padding: 1.1rem 0;
+}
+.sns_list{
+    float: left;
+    padding-left: 3.5rem;
+}
+.sns_list>a>img{
+    width: 4.5rem;
+}
+.copyright{
+    float: left;
+    padding-top: 5rem;
+    color: #fff;
+}
+.infor_box{
+    overflow: hidden;
+}
+.infor_list{
+    position: relative;
+    float: left;
+    padding-right: 4rem;
+}
+.infor_list:not(:last-child):after{
+    content: '';
+    position: absolute;
+    top: 0; right: 20px;
+    width: 1px; height: 17px;
+    background: #fff;
+}
+.infor_list>a{
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #fff;
+}
+.address{
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    padding-top: 2rem;
+}
+.nice{
+    float: left;
+}
+.nice>img{
+    width: 15.8rem;
+}
